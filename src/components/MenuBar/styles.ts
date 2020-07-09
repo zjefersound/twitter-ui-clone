@@ -25,9 +25,7 @@ export const Container = styled.div`
         max-height: 100vh;
         overflow-y: auto;
     }
-    @media (min-width: 1280px) {
-        padding: 8px 60px 20px 20px; 
-    }
+
 `;
 
 export const TopSide = styled.div`
@@ -117,6 +115,7 @@ export const MenuButton = styled.button`
 export const Bottomside = styled.div`
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 20px;
 
 
@@ -179,7 +178,7 @@ export const ExitIcon = styled(ExitToApp)`
         width: 24px;
         height: 24px;
         display: inline-block;
-        margin-left: 30px;
+        margin-left: 32px;
         cursor: pointer;
         &:hover path {
             color: var(--like);
